@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "TRAVIS is donions.",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./node_modules/jshint/bin/jshint hello.js",
+    "t-test": "tape hello.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/maxgerber/learn-travis#readme",
   "devDependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "shot": "^3.4.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.7.0"
   }
 }
