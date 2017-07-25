@@ -1,5 +1,5 @@
 const test = require('tape');
-const server = require('./hello.js');
+// const server = require('./hello.js');
 const shot = require('shot');
 
 test('Tape is running', t => {
