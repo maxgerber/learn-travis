@@ -4,7 +4,6 @@ const shot = require('shot');
 
 test('Tape is running', t => {
   t.equals(1, 1, 'Tape is running as expected');
-  t.equals(1, 2, 'purposefully failing test');
   t.end();
 })
 //
