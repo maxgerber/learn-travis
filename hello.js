@@ -4,7 +4,7 @@ const server = http.createServer((req, res) => {
     'Content-Type': 'text/plain'
   });
 
-  res.end('Hello ASSKittens\n');
+  res.end('Hello ASSKittens\n')
 }).listen(1337, '127.0.0.1');
 console.log('Server running at http://127.0.0.1:1337/');
 
